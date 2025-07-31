@@ -74,7 +74,7 @@ This will execute `simple_client.py`, which calls the `hello` tool and prints th
 --- Calling tool 'hello'... ---
 Server response: Hello, World!
 ```
-![](assets/2025-07-31-09-32-15.png)
+![](assets/2025-07-31-09-33-17.png)
 -----
 
 ### 4\. Stopping the Server
