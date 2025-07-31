@@ -41,6 +41,7 @@ This command automates the entire setup process:
 2.  Installs `poetry` into the environment.
 3.  Uses `poetry` to install all project dependencies specified in `pyproject.toml`.
 
+![](assets/2025-07-31-09-18-57.png)
 -----
 
 ### 2\. Running the Server
@@ -52,6 +53,8 @@ make start
 ```
 
 This starts the server in the background on **`http://127.0.0.1:8000`** and creates a `.pid` file to track its process.
+
+![](assets/2025-07-31-09-30-33.png)
 
 -----
 
@@ -71,7 +74,7 @@ This will execute `simple_client.py`, which calls the `hello` tool and prints th
 --- Calling tool 'hello'... ---
 Server response: Hello, World!
 ```
-
+![](assets/2025-07-31-09-32-15.png)
 -----
 
 ### 4\. Stopping the Server

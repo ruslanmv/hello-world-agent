@@ -12,7 +12,7 @@ uvicorn = "*"        # ASGI server
 requests = "*"       # HTTP client for examples
 sseclient-py = "*"    # Support for SSE if needed
 
-[tool.poetry.dev-dependencies]
+[poetry.group.dev.dependencies]
 pytest = "*"          # Testing framework
 pre-commit = "*"      # Git hook management
 
