@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hello-world-agent"
+version = "0.1.0"
+description = "A simple MCP hello world agent."
+authors = ["Your Name <you@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastmcp = "*"        # MCP framework
+uvicorn = "*"        # ASGI server
+requests = "*"       # HTTP client for examples
+sseclient-py = "*"    # Support for SSE if needed
+
+[tool.poetry.dev-dependencies]
+pytest = "*"          # Testing framework
+pre-commit = "*"      # Git hook management
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
