@@ -2,7 +2,7 @@
 name = "hello-world-agent"
 version = "0.1.0"
 description = "A simple MCP hello world agent."
-authors = ["Your Name <you@example.com>"]
+authors = ["Your Name <contact@ruslanmv.com>"]
 package-mode = false
 
 [tool.poetry.dependencies]
